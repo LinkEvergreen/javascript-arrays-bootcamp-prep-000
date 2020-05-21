@@ -25,14 +25,18 @@ function destructivelyRemoveElementFromEndOfArray(array){
   return array
 }
 
-function removeElementFromEndOfArray(array){}
+function removeElementFromEndOfArray(array){
+    array.slice(0, array.length - 1)
+}
 
 function destructivelyRemoveElementFromBeginningOfArray(array){
   array.slice(1)
   return array
 }
 
-function removeElementFromEndOfArray(array){}
+function removeElementFromBeginningOfArray(array){
+
+}
 
 function accessElementInArray(array, index) {
   console.log(array[2])
