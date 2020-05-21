@@ -11,3 +11,16 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 function addElementToEndOfArray(array, element) {
   chocolateBars.push('foo')
 }
+
+function destructivelyAddElementToEndOfArray (array, element) {
+  chocolateBar = [...chocolateBar, 'foo']
+}
+
+function accessElementInArray (array, index){
+  console.log(chocolateBars[0])
+}
+
+function removeElementFromBeginningOfArray (array, element){
+  chocolateBars.shift("1")
+}
+  
