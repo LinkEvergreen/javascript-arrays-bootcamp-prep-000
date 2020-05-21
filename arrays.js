@@ -20,8 +20,9 @@ function destructivelyAddElementToEndOfArray (array, element) {
   return array
 }
 
-function destructivelyRemoveElementFromEndOfArray(array, element){}
-  array.
+function destructivelyRemoveElementFromEndOfArray(array, element){
+  
+}
 
 function removeElementFromEndOfArray(array, element){}
 
