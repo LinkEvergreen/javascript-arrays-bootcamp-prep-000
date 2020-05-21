@@ -15,7 +15,3 @@ function addElementToEndOfArray(array, element) {
 function destructivelyAddElementToEndOfArray (array, element) {
   chocolateBar = [...chocolateBar, 'foo']
 }
-
-function removeElementFromBeginningOfArray (array, element){
-  chocolateBars = chocolateBars.slice(1)
-}
