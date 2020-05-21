@@ -21,7 +21,8 @@ function destructivelyAddElementToEndOfArray (array, element) {
 }
 
 function destructivelyRemoveElementFromEndOfArray(array, element){
-  
+  array.pop()
+  return array
 }
 
 function removeElementFromEndOfArray(array, element){}
