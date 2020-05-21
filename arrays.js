@@ -41,5 +41,5 @@ function removeElementFromBeginningOfArray(array){
 }
 
 function accessElementInArray(array, index) {
-  console.log(array[2])
+  console.log(array[3])
 }
