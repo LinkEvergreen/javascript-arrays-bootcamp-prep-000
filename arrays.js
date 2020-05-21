@@ -23,4 +23,3 @@ function accessElementInArray (array, index){
 function removeElementFromBeginningOfArray (array, element){
   chocolateBars.shift("1")
 }
-  
