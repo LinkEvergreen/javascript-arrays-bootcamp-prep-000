@@ -17,5 +17,6 @@ function destructivelyAddElementToEndOfArray (array, element) {
 }
 
 function removeElementFromBeginningOfArray (array, element){
-  chocolateBars.shift("snickers")
+  chocolateBars = chocolateBars.slice(1)
+
 }
