@@ -16,10 +16,6 @@ function destructivelyAddElementToEndOfArray (array, element) {
   chocolateBar = [...chocolateBar, 'foo']
 }
 
-function accessElementInArray (array, index){
-  console.log(chocolateBars[1])
-}
-
 function removeElementFromBeginningOfArray (array, element){
   chocolateBars.shift("snickers")
 }
