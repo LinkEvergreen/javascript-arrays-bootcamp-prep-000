@@ -7,3 +7,7 @@ function addElementToBeginningOfArray(array, element) {
 function destructivelyAddElementToBeginningOfArray(array, element) {
   const chocolateBars = ['foo', ...chocolateBars]
 }
+
+function addElementToEndOfArray(array, element) {
+  chocolateBars.push('foo')
+}
